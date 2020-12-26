@@ -1,13 +1,16 @@
 <br><br><B><P>Lets Get Your Insurance Quotation<P></B>
 
-
+<form action="{{ route('quote.show') }}" method="POST">
+    @csrf
 <br><br>
+<div class="form-group">
+
 Gender:
 <select>
 <option value= Female> Female</option>
 <option value= Male> Male</option>
 </select>
-
+</div>
 <br><br>
 Occupational Class:
 <select>
@@ -57,11 +60,12 @@ Are you smoking?<br>
 
 <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                            <a href="{{ url('/result') }}"><button type="button" name="Result" >
+                            <button type="button" name="Result" type="submit" >
                                 {{ __('Quote Now') }}  
         
                                 </button>
-                                </a>
+                                
 
                             </div>
                         </div>
+                        </form>

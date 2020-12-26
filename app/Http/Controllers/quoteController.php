@@ -10,4 +10,12 @@ class quoteController extends Controller
     {
         return view('quote');
     }
+    public function create()
+    {
+        return view('quote');
+    }
+    public function show(Request $request)
+    {
+        return view('result');
+    }
 }

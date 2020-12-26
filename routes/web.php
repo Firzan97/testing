@@ -28,8 +28,8 @@ Route::view('/admin', 'admin');
 
 // user 
 Route::view('/details', 'details');
-Route::view('/result', 'result');
-Route::view('/quote', 'quote');
+Route::post('/result', 'quoteController@show')->name("quote.show");
+Route::get('/quote', 'quoteController@create');
 
 // user details
 Route:: get('/userDetails', 'userDetailsController@create');

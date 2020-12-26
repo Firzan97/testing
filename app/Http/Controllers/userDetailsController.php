@@ -64,7 +64,7 @@ class userDetailsController extends Controller
            'state' => $request->get('state'),
        ]);
        $userDetails->save();
-       return redirect('/viewDetails')->with('Success', 'Details saved!');
+       return view('userDetails.viewDetails')->with('Success', 'Details saved!');
 
     }
 
