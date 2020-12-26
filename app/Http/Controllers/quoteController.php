@@ -16,6 +16,6 @@ class quoteController extends Controller
     }
     public function show(Request $request)
     {
-        return view('result');
+        return view('result',compact('request'));
     }
 }

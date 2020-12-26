@@ -34,7 +34,7 @@ Route::get('/quote', 'quoteController@create');
 // user details
 Route:: get('/userDetails', 'userDetailsController@create');
 Route:: post('/insertDetails', 'userDetailsController@store'); //add
-Route:: get('/viewDetails', 'userDetailsController@index'); //retrieve
+Route:: get('/viewUser', 'userDetailsController@index')->name("view.detail"); //retrieve
 
 /*
 1. Route using Controller 

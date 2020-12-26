@@ -21,7 +21,7 @@ class userDetailsController extends Controller
     function index()
     {
         $data= userDetails::all();
-
+         return view("userDetails.viewDetails",compact("data"));
         return view('view',['userDetails'=>$data]);
     }
 
@@ -64,7 +64,7 @@ class userDetailsController extends Controller
            'state' => $request->get('state'),
        ]);
        $userDetails->save();
-       return view('userDetails.viewDetails')->with('Success', 'Details saved!');
+       return redirect()->route('view.detail')->with('Success', 'Details saved!');
 
     }
 

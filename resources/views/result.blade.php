@@ -5,7 +5,7 @@
 <br><br><br>
 <b>*Result*</b>
 <br><br><br>
-
+<p>Gender: {{$request->gender}}</p>
 <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                             <a href="{{ url('/userDetails') }}"><button type="button" name="Details" >

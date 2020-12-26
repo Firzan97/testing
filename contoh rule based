@@ -1,0 +1,808 @@
+
+
+if $gender == "male"
+	if $occNo == "1"
+		if $contmode =="Monthly"
+				if $planid == "TT201"
+					if $age =="20"
+						if $budget == "50-99"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Contribution Term = 20 years
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM50.00 
+
+										   Total Monthly Contribution = RM95.04
+										   Total Annually Regular Contribution = RM1056.00"
+
+						if $budget == "100-199"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM142.57
+										   Total Annually Regular Contribution = RM1584.00"
+                        
+                        if $budget == "100-199"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM105.00 
+
+										   Total Monthly Contribution = RM190.08
+										   Total Annually Regular Contribution = RM2112.00"
+
+						 if $budget == "200-299"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM150.00 
+
+										   Total Monthly Contribution = RM285.12
+										   Total Annually Regular Contribution = RM3168.00"
+
+					if $age =="21"
+						if $budget == "50-99"
+							then display  "Choice 1
+
+										   No suitable plan."
+
+						if $budget == "100-199"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM50.00 
+
+										   Total Monthly Contribution = RM101.43
+										   Total Annually Regular Contribution = RM1127.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM90.00 
+
+										   Total Monthly Contribution = RM152.16
+										   Total Annually Regular Contribution = RM1127.00"
+
+						if $budget == "200-299"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM120.00 
+
+										   Total Monthly Contribution = RM202.86
+										   Total Annually Regular Contribution = RM2254.00"
+
+						if $budget == "300-399"
+							then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM190.00 
+
+										   Total Monthly Contribution = RM304.29
+										   Total Annually Regular Contribution = RM3381.00"
+					if $age =="22"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM107.91
+										   Total Annually Regular Contribution = RM1199.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM161.87
+										   Total Annually Regular Contribution = RM1798.50"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM215.82
+										   Total Annually Regular Contribution = RM2398.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM323.73
+										   Total Annually Regular Contribution = RM3597.00"
+
+		            if $age =="23"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM112.59
+										   Total Annually Regular Contribution = RM1251.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM168.89
+										   Total Annually Regular Contribution = RM1876.50"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM225.18
+										   Total Annually Regular Contribution = RM2502.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM190.00 
+
+										   Total Monthly Contribution = RM337.77
+										   Total Annually Regular Contribution = RM3753.00"
+     
+
+            if $age =="24"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM115.74
+										   Total Annually Regular Contribution = RM1286.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM173.62
+										   Total Annually Regular Contribution = RM1929.00"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM231.48
+										   Total Annually Regular Contribution = RM2572.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM347.22
+										   Total Annually Regular Contribution = RM3858.00"
+
+				if $age =="25"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM118.08
+										   Total Annually Regular Contribution = RM1312.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM117.13
+										   Total Annually Regular Contribution = RM1968.00"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM236.16
+										   Total Annually Regular Contribution = RM2624.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM354.24
+										   Total Annually Regular Contribution = RM3936.00"
+
+				if $age =="26"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM120.42
+										   Total Annually Regular Contribution = RM1338.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM180.64
+										   Total Annually Regular Contribution = RM2007.00"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM240.84
+										   Total Annually Regular Contribution = RM2676.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM361.26
+										   Total Annually Regular Contribution = RM4014.00"
+
+			    if $age =="27"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM122.85
+										   Total Annually Regular Contribution = RM1365.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM184.29
+										   Total Annually Regular Contribution = RM2047.50"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM245.70
+										   Total Annually Regular Contribution = RM2730.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM368.55
+										   Total Annually Regular Contribution = RM4095.00"
+
+				if $age =="28"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM125.28
+										   Total Annually Regular Contribution = RM1392.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM117.86
+										   Total Annually Regular Contribution = RM2088.00"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM250.56
+										   Total Annually Regular Contribution = RM2784.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM375.84
+										   Total Annually Regular Contribution = RM4176.00"
+
+			if $age =="29"
+						if $budget == "50-99"
+						   then display  "Choice 1
+
+										   No suitable plan."
+						if $budget == "100-199"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM70.00 
+
+										   Total Monthly Contribution = RM107.91
+										   Total Annually Regular Contribution = RM1199.00"
+
+										   Choice 2
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 2
+
+										   Benefits Death = RM150,000 
+										   Critical Illness super rider = RM150,000 
+										   Accidental Death & Accidental Disablement rider = RM150,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM100.00 
+
+										   Total Monthly Contribution = RM161.87
+										   Total Annually Regular Contribution = RM1798.50"
+
+						if $budget == "200-299"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 3
+
+										   Benefits Death = RM200,000 
+										   Critical Illness super rider = RM200,000 
+										   Accidental Death & Accidental Disablement rider = RM200,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM130.00 
+
+										   Total Monthly Contribution = RM215.82
+										   Total Annually Regular Contribution = RM2398.00"
+
+						if $budget == "300-399"
+						   then display " Choice 1
+
+										   Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 4
+
+										   Benefits Death = RM300,000 
+										   Critical Illness super rider = RM300,000 
+										   Accidental Death & Accidental Disablement rider = RM300,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM180.00 
+
+										   Total Monthly Contribution = RM323.73
+										   Total Annually Regular Contribution = RM3597.00"
+
+
+
+
+
+
+
+
+
+
+
+
+	if $age =="20"
+		if $occNo == "1"
+			if $contmode =="Monthly"
+				if $contTerm =="20"
+					if $planid == "TT201"
+						if $budget == "50-100"
+
+							then display " Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM50.00 
+
+										   Total Monthly Contribution = RM95.04
+										   Total Annually Regular Contribution = RM1056.00 "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+else  $gender == "female"
+	if $age =="20"
+		if $occNo == "1"
+			if $contmode =="Monthly"
+				if $contTerm =="20"
+					if $planid == "TT201"
+						if $budget == "50-100"
+
+							then display " Plan ID = TT201
+										   Plan Name = TAKAFUL TERM 80
+										   Plan No = 1
+
+										   Benefits Death = RM100,000 
+										   Critical Illness super rider = RM100,000 
+										   Accidental Death & Accidental Disablement rider = RM100,000 
+
+										   Optional Benefits:
+										   Hospital Benefit Rider = RM-
+
+										   Total Monthly Contribution = RM65.43
+										   Total Annually Regular Contribution = RM727.00"
