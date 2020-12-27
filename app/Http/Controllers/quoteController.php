@@ -3,9 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Traits\InferenceEngine;
 
 class quoteController extends Controller
 {
+    use InferenceEngine;
+
     public function index()
     {
         return view('quote');
@@ -16,6 +19,7 @@ class quoteController extends Controller
     }
     public function show(Request $request)
     {
-        return view('result',compact('request'));
+        $plan = $this->inferenceEngine($request);
+        return view('result', compact('plan', 'request'));
     }
 }
